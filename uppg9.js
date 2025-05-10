@@ -25,6 +25,7 @@ function uppg9 (){
 
 sort(siffror)
   
+
 }
 
 module.exports = { uppg9 };
