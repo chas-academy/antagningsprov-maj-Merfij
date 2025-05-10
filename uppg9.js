@@ -15,10 +15,10 @@ function uppg9 (){
         for(let siffra of argument){
             if(siffra %2 === 0){
                 jämt.push(siffra)
-                console.log(siffra + " jämt" )
+                console.log(jämt.siffra + "jämt")
             } else {
                 udda.push(siffra)
-                console.log(siffra + " udda")
+                console.log(udde.siffra + " udda")
             }
         }
     }
