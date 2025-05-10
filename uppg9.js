@@ -10,11 +10,11 @@ function uppg9 (){
     const siffror = Number([1, 23, 40, 46]);
 
     function sort(argument){
-        for(let siffra of argument){
-            if(siffra %2 === 0){
-                console.log(siffra + "jämt")
+        for(let i = 0; i < argument.length; i++){
+            if(argument[i] %2 === 0){
+                console.log(argument[i] + "jämt")
             } else {
-                console.log(siffra + " udda")
+                console.log(argument[i] + " udda")
             }
         }
     }
