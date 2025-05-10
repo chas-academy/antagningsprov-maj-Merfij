@@ -7,7 +7,7 @@ function uppg9 (){
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
 
     // anropa funktionen och skicka med en array som argument
-    const siffror = [1, 23, 40, 46]
+    const siffror = Number([1, 23, 40, 46])
 
     function sort(argument){
         for(let siffra of argument){
