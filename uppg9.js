@@ -8,16 +8,12 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
     const siffror = [1, 23, 40, 46]
-    const jämt = []
-    const udda = []
 
     function sort(argument){
         for(let siffra of argument){
             if(siffra %2 === 0){
-                jämt.push(siffra)
                 console.log(jämt.siffra + "jämt")
             } else {
-                udda.push(siffra)
                 console.log(udda.siffra + " udda")
             }
         }
