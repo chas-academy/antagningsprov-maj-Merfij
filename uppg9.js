@@ -12,9 +12,9 @@ function uppg9 (){
     function sort(argument){
         for(let siffra of argument){
             if(siffra %2 === 0){
-                console.log(jämt.siffra + "jämt")
+                console.log(siffra + "jämt")
             } else {
-                console.log(udda.siffra + " udda")
+                console.log(siffra + " udda")
             }
         }
     }
