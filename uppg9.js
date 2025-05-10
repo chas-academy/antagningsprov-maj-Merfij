@@ -11,16 +11,15 @@ function uppg9 (){
     function sort(argument){
         for(let i = 0; i < argument.length; i++){
             if(argument[i] %2 === 0){
-                console.log(argument[i] + "jämt")
+                console.log(argument[i] + " jämt")
             } else {
                 console.log(argument[i] + " udda")
             }
         }
     }
-const siffror = Number([1,23,40,46]);
+const siffror = [1,23,40,46];
 
 sort(siffror)
-  
 
 }
 
