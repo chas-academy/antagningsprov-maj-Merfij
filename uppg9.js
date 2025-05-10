@@ -13,7 +13,7 @@ function uppg9 (){
 
     function sort(argument){
         for(let siffra of argument){
-            if(siffra %2 == 0){
+            if(siffra %2 === 0){
                 jämt.push(siffra)
                 console.log(siffra + " jämt" )
             } else {

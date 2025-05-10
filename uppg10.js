@@ -12,7 +12,7 @@ function uppg10(){
   const other = [];
   
   for(let number of numbers){
-    if(number > 10 && number %2 == 0){
+    if(number > 10 && number %2 === 0){
       bigEven.push(number)
     } else if (number < 10 && number %2 != 0){
       smallOdd.push(number)
