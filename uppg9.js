@@ -18,7 +18,7 @@ function uppg9 (){
                 console.log(jämt.siffra + "jämt")
             } else {
                 udda.push(siffra)
-                console.log(udde.siffra + " udda")
+                console.log(udda.siffra + " udda")
             }
         }
     }
