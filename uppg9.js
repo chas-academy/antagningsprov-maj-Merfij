@@ -17,7 +17,7 @@ function uppg9 (){
             }
         }
     }
-const siffror = [1,23,40,46]
+const siffror = Number([1,23,40,46]);
 
 sort(siffror)
   
