@@ -11,9 +11,9 @@ function uppg9 (){
     function sort(argument){
         for(let i = 0; i < argument.length; i++){
             if(argument[i] %2 === 0){
-                console.log(argument[i] + " jämt")
+                console.log(Number(argument[i]) + " jämt")
             } else {
-                console.log(argument[i] + " udda")
+                console.log(Number(argument[i]) + " udda")
             }
         }
     }
